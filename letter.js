@@ -31,7 +31,7 @@ setTimeout(() => {
         print();
         if(i==str.length)
         clearInterval(printid);
-        },190);  // 190毫秒打一个字，
+        },50);  // 190毫秒打一个字，
 }, 5500);  //5500毫秒开始打字
 // 背景出现
 function appearBackground(){
